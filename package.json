@@ -3,7 +3,7 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
-    "build": "npm run build"
+    "build": "webpack --config webpack.config.js"
   },
 
   "dependencies": {
