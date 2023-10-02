@@ -3,8 +3,9 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "postcss output.css -o dist/output.css  && cp index.html dist/ && cp -R images/ dist/images/"
   },
+
 
   "dependencies": {
     "axios": "^1.5.1"
